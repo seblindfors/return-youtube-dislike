@@ -9,7 +9,6 @@ export default {
       "YouTube'daki dislike sayılarınızı geri getiren bir tarayıcı uzantısı ve API",
     ukraine: "Ukrayna'ya Destek Ol",
     sponsors: "Sponsorlar",
-    becomeSponsor: "Sponsorumuz olun",
   },
   install: {
     name: "Yükle",
@@ -21,17 +20,6 @@ export default {
     title3: "Üçüncü Parti Uygulamalar",
     subtitle3:
       "Riski tamamen size aittir, bizim tarafımızda sorumluluk kabul edilmemektedir",
-    firefox: "Firefox",
-    chrome: "Chrome",
-    edge: "Edge",
-    opera: "Opera",
-    brave: "Brave",
-    userscript: "Kullanıcı betiği",
-    tampermonkey: "Tampermonkey",
-    androidReVanced: "Android - ReVanced",
-    androidTubular: "Android (Tubular - NewPipe çatallaması)",
-    iosJailbroken: "iOS (jailbreakli)",
-    iosUYouPlus: "iOS (uYou+)",
   },
   api: {
     name: "API",
@@ -92,8 +80,6 @@ export default {
     bullet4c1: "Uzantıları görmek için şu linki adres çubuğuna yapıştırın: ",
     firefox: "(Firefox için)",
     chrome: "(Chrome, Edge, Brave, Opera ve Vivaldi için)",
-    detected: "Algılandı:",
-    altExampleScreenshot: "örnek ekran görüntüsü",
   },
   faq: {
     name: "SSS",
@@ -126,8 +112,6 @@ export default {
     name: "Bağış Yap",
     subtitle:
       "İnterneti özgür bırakma çabamızda bize bağışınızla destek olabilirsiniz!",
-    patreon: "Patreon",
-    crypto: "Kripto",
   },
   links: {
     name: "Bağlantılar",
@@ -138,11 +122,5 @@ export default {
     coolProjects: "Havalı Projeler",
     sponsorBlockDescription: "Videolara gömülü reklamları pas geçer",
     filmotDescription: "YouTube videolarını alt yazılara göre aramanızı sağlar",
-    github: "GitHub",
-    discord: "Discord",
-  },
-  layout: {
-    notSupported: "desteklenmiyor.",
-    considerUpgrade: "En son sürüme yükseltmeyi düşünün.",
   },
 };

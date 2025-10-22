@@ -10,7 +10,9 @@ import {
   localize,
   createObserver,
 } from "./utils";
-import { config, getApiEndpoint, DEV_API_URL, PROD_API_URL, isDevelopment } from "./config";
+
+//TODO: Do not duplicate here and in ryd.background.js
+const apiUrl = "https://returnyoutubedislikeapi.com";
 const LIKED_STATE = "LIKED_STATE";
 const DISLIKED_STATE = "DISLIKED_STATE";
 const NEUTRAL_STATE = "NEUTRAL_STATE";
@@ -25,7 +27,6 @@ let extConfig = {
   showTooltipPercentage: false,
   tooltipPercentageMode: "dash_like",
   numberDisplayReformatLikes: false,
-  hidePremiumTeaser: false,
   selectors: {
     dislikeTextContainer: [],
     likeTextContainer: [],
@@ -245,7 +246,7 @@ async function setState(storedData) {
   let videoId = getVideoId(window.location.href);
   let likeCount = getLikeCountFromButton() || null;
 
-  let response = await fetch(getApiEndpoint(`/votes?videoId=${videoId}&likeCount=${likeCount || ""}`), {
+  let response = await fetch(`${apiUrl}/votes?videoId=${videoId}&likeCount=${likeCount || ""}`, {
     method: "GET",
     headers: {
       Accept: "application/json",
@@ -278,21 +279,18 @@ async function initExtConfig() {
   initializeTooltipPercentage();
   initializeTooltipPercentageMode();
   initializeNumberDisplayReformatLikes();
-  initializeHidePremiumTeaser();
   await initializeSelectors();
 }
 
 async function initializeSelectors() {
-  let result = await fetch(getApiEndpoint("/configs/selectors"), {
+  let result = await fetch(`${apiUrl}/configs/selectors`, {
     method: "GET",
     headers: {
       Accept: "application/json",
     },
   })
     .then((response) => response.json())
-    .catch((error) => {
-      console.error("Error fetching selectors:", error);
-    });
+    .catch((error) => {});
   extConfig.selectors = result ?? extConfig.selectors;
   console.log(result);
 }
@@ -386,17 +384,6 @@ function initializeNumberDisplayReformatLikes() {
       getBrowser().storage.sync.set({ numberDisplayReformatLikes: false });
     } else {
       extConfig.numberDisplayReformatLikes = res.numberDisplayReformatLikes;
-    }
-  });
-}
-
-function initializeHidePremiumTeaser() {
-  getBrowser().storage.sync.get(["hidePremiumTeaser"], (res) => {
-    if (res.hidePremiumTeaser === undefined) {
-      getBrowser().storage.sync.set({ hidePremiumTeaser: false });
-      extConfig.hidePremiumTeaser = false;
-    } else {
-      extConfig.hidePremiumTeaser = res.hidePremiumTeaser === true;
     }
   });
 }

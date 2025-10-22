@@ -9,7 +9,6 @@ export default {
       "Webbläsartillägg och ett API som visar antalet ogilla på Youtube",
     ukraine: "Stöd Ukraina",
     sponsors: "Sponsorer",
-    becomeSponsor: "Bli vår sponsor",
   },
   install: {
     name: "Installera",
@@ -19,17 +18,6 @@ export default {
     subtitle2: "Om din webbläsare ännu inte stöds, prova detta UserScript",
     title3: "Tredjepartsimplementeringar",
     subtitle3: "Inget ansvar från vår sida, använd på egen risk",
-    firefox: "Firefox",
-    chrome: "Chrome",
-    edge: "Edge",
-    opera: "Opera",
-    brave: "Brave",
-    userscript: "Användarskript",
-    tampermonkey: "Tampermonkey",
-    androidReVanced: "Android - ReVanced",
-    androidTubular: "Android (Tubular – en fork av NewPipe)",
-    iosJailbroken: "iOS (jailbreakad)",
-    iosUYouPlus: "iOS (uYou+)",
   },
   api: {
     name: "API",
@@ -90,8 +78,6 @@ export default {
     bullet4c1: "För att se tilläggen skriv in detta i adressfältet: ",
     firefox: "för Firefox",
     chrome: "för Chrome, Edge, Brave, Opera och Vivaldi",
-    detected: "Upptäckt:",
-    altExampleScreenshot: "exempelskärmdump",
   },
   faq: {
     name: "FAQ",
@@ -123,8 +109,6 @@ export default {
     name: "Donera",
     subtitle:
       "Du kan stöda våra ansträngningar att hålla internet fritt med en donation!",
-    patreon: "Patreon",
-    crypto: "Krypto",
   },
   links: {
     name: "Länkar",
@@ -135,11 +119,5 @@ export default {
     coolProjects: "Häftiga projekt",
     sponsorBlockDescription: "Hoppar över annonser integrerade i videon",
     filmotDescription: "Sök efter YouTube-videor i undertexterna",
-    github: "GitHub",
-    discord: "Discord",
-  },
-  layout: {
-    notSupported: "stöds inte.",
-    considerUpgrade: "Överväg att uppgradera till den senaste versionen.",
   },
 };

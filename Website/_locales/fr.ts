@@ -9,7 +9,6 @@ export default {
       "Une extension de navigateur et une API qui vous montre les dislike sur Youtube",
     ukraine: "Soutenir l'Ukraine",
     sponsors: "Sponsors",
-    becomeSponsor: "Devenez notre sponsor",
   },
   install: {
     name: "Installer",
@@ -21,17 +20,6 @@ export default {
     title3: "Implémentations par des tiers",
     subtitle3:
       "Aucune responsabilité de notre part, à utiliser à vos risques et périls.",
-    firefox: "Firefox",
-    chrome: "Chrome",
-    edge: "Edge",
-    opera: "Opera",
-    brave: "Brave",
-    userscript: "Script utilisateur",
-    tampermonkey: "Tampermonkey",
-    androidReVanced: "Android - ReVanced",
-    androidTubular: "Android (Tubular – un fork de NewPipe)",
-    iosJailbroken: "iOS (jailbreak)",
-    iosUYouPlus: "iOS (uYou+)",
   },
   api: {
     name: "API",
@@ -95,8 +83,6 @@ export default {
       "Pour voir les extensions, mettez ceci dans la barre d'adresse : ",
     firefox: "pour Firefox",
     chrome: "pour Chromium (Chrome, Edge, Brave, Opera, Vivaldi...)",
-    detected: "Détecté :",
-    altExampleScreenshot: "capture d'écran d'exemple",
   },
   faq: {
     name: "FAQ",
@@ -131,8 +117,6 @@ export default {
     name: "Donner",
     subtitle:
       "Vous pouvez soutenir nos efforts pour que l'internet reste libre en faisant un don !",
-    patreon: "Patreon",
-    crypto: "Crypto",
   },
   links: {
     name: "Liens",
@@ -144,11 +128,5 @@ export default {
     sponsorBlockDescription:
       "Ignorer les publicités intégrées (sponso) dans la vidéo",
     filmotDescription: "Rechercher des vidéos YouTube par sous-titres",
-    github: "GitHub",
-    discord: "Discord",
-  },
-  layout: {
-    notSupported: "n’est pas pris en charge.",
-    considerUpgrade: "Pensez à mettre à jour vers la dernière version.",
   },
 };

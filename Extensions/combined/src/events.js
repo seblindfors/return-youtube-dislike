@@ -157,11 +157,6 @@ function storageChangeHandler(changes, area) {
       changes.numberDisplayReformatLikes.newValue,
     );
   }
-  if (changes.hidePremiumTeaser !== undefined) {
-    handleHidePremiumTeaserChangeEvent(
-      changes.hidePremiumTeaser.newValue,
-    );
-  }
 }
 
 function handleDisableVoteSubmissionChangeEvent(value) {
@@ -187,10 +182,6 @@ function handleNumberDisplayFormatChangeEvent(value) {
 
 function handleNumberDisplayReformatLikesChangeEvent(value) {
   extConfig.numberDisplayReformatLikes = value;
-}
-
-function handleHidePremiumTeaserChangeEvent(value) {
-  extConfig.hidePremiumTeaser = value === true;
 }
 
 export {

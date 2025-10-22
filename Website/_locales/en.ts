@@ -8,7 +8,6 @@ export default {
     subtitle: "Browser extension and an API that shows you dislikes on Youtube",
     ukraine: "Support Ukraine",
     sponsors: "Sponsors",
-    becomeSponsor: "Become our sponsor",
   },
   install: {
     name: "Install",
@@ -18,17 +17,6 @@ export default {
     subtitle2: "If your browser is not yet supported, try this UserScript",
     title3: "Third Party Implementations",
     subtitle3: "No liability on our side, use at your own risk",
-    firefox: "Firefox",
-    chrome: "Chrome",
-    edge: "Edge",
-    opera: "Opera",
-    brave: "Brave",
-    userscript: "Userscript",
-    tampermonkey: "Tampermonkey",
-    androidReVanced: "Android - ReVanced",
-    androidTubular: "Android (Tubular - a NewPipe fork)",
-    iosJailbroken: "iOS (Jailbroken)",
-    iosUYouPlus: "iOS (uYou+)",
   },
   api: {
     name: "API",
@@ -86,8 +74,6 @@ export default {
     bullet4c1: "To see extensions put this into address bar: ",
     firefox: "for Firefox",
     chrome: "for Chrome, Edge, Brave, Opera, and Vivaldi",
-    detected: "Detected:",
-    altExampleScreenshot: "example screenshot",
   },
   faq: {
     name: "FAQ",
@@ -119,8 +105,6 @@ export default {
     name: "Donate",
     subtitle:
       "You can support our efforts to keep the internet free with a donation!",
-    patreon: "Patreon",
-    crypto: "Crypto",
   },
   links: {
     name: "Links",
@@ -131,11 +115,5 @@ export default {
     coolProjects: "Cool Projects",
     sponsorBlockDescription: "Skips ads integrated in video",
     filmotDescription: "Search YouTube videos by subtitles",
-    github: "GitHub",
-    discord: "Discord",
-  },
-  layout: {
-    notSupported: "is not supported.",
-    considerUpgrade: "Consider upgrading to the latest version.",
   },
 };

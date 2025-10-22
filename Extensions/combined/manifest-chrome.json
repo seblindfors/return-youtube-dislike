@@ -17,9 +17,6 @@
   "permissions": [
     "storage"
   ],
-  "optional_permissions": [
-    "identity"
-  ],
   "action": {
     "default_popup": "popup.html"
   },

@@ -10,12 +10,12 @@
 
     <v-btn class="mainAltButton" :href="githubLink" target="_blank">
       <v-icon style="margin-right: 0.5em">mdi-github</v-icon>
-      {{ $vuetify.lang.t("$vuetify.links.github") }}
+      GitHub
     </v-btn>
 
     <v-btn class="mainAltButton" :href="discordLink" target="_blank">
       <v-icon style="margin-right: 0.5em">mdi-discord</v-icon>
-      {{ $vuetify.lang.t("$vuetify.links.discord") }}
+      Discord
     </v-btn>
 
     <h1 style="margin-top: 1em">

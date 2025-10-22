@@ -9,7 +9,6 @@ export default {
       "YouTube-dakı dislike saylarını geri qaytaran bir brauzer genişləndirməsi və API",
     ukraine: "Ukraynaya Dəstək Ol",
     sponsors: "Sponsorlar",
-    becomeSponsor: "Sponsorumuz olun",
   },
   install: {
     name: "Yüklə",
@@ -21,17 +20,6 @@ export default {
     title3: "Üçüncü Tərəf Tətbiqlər",
     subtitle3:
       "Risk tamamilə sizə məxsusdur, bizim tərəfimizdən heç bir məsuliyyət qəbul edilmir",
-    firefox: "Firefox",
-    chrome: "Chrome",
-    edge: "Edge",
-    opera: "Opera",
-    brave: "Brave",
-    userscript: "İstifadəçi skripti",
-    tampermonkey: "Tampermonkey",
-    androidReVanced: "Android - ReVanced",
-    androidTubular: "Android (Tubular - NewPipe çatalı)",
-    iosJailbroken: "iOS (Jailbreakli)",
-    iosUYouPlus: "iOS (uYou+)",
   },
   api: {
     name: "API",
@@ -92,8 +80,6 @@ export default {
     bullet4c1: "Genişləndirmələri görmək üçün bu linki ünvan çubuğuna yapışdırın: ",
     firefox: "(Firefox üçün)",
     chrome: "(Chrome, Edge, Brave, Opera və Vivaldi üçün)",
-    detected: "Aşkarlanan:",
-    altExampleScreenshot: "nümunə ekran görüntüsü",
   },
   faq: {
     name: "Ən çox verilən suallar",
@@ -126,8 +112,6 @@ export default {
     name: "Bağış Et",
     subtitle:
       "İnterneti azad etmək səylərimizdə bizə bağışınızla dəstək ola bilərsiniz!",
-    patreon: "Patreon",
-    crypto: "Kripto",
   },
   links: {
     name: "Linklər",
@@ -138,11 +122,5 @@ export default {
     coolProjects: "Maraqlı Layihələr",
     sponsorBlockDescription: "Videolara daxil olan reklamlardan keçər",
     filmotDescription: "YouTube videolarını altyazıya görə axtarmağa imkan verir",
-    github: "GitHub",
-    discord: "Discord",
-  },
-  layout: {
-    notSupported: "dəstəklənmir.",
-    considerUpgrade: "Zəhmət olmasa ən son versiyaya yeniləyin.",
   },
 };

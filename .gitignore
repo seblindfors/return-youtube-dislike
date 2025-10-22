@@ -5,10 +5,6 @@ package-lock.json
 
 # Website node modules and build output
 Website/package-lock.json
-
-# AI assistant artifacts
-.claude/
-CLAUDE.md
 Website/.editorconfig
 Website/node_modules
 Website/.nuxt

@@ -46,28 +46,8 @@ function getNumberFormatter(optionSelect) {
   });
 }
 
-function localize(localeString, substitutions) {
-  try {
-    if (typeof chrome !== "undefined" && chrome?.i18n?.getMessage) {
-      const args = substitutions === undefined ? [localeString] : [localeString, substitutions];
-      const message = chrome.i18n.getMessage(...args);
-      if (message) {
-        return message;
-      }
-    }
-  } catch (error) {
-    console.warn("Localization lookup failed for", localeString, error);
-  }
-
-  if (Array.isArray(substitutions)) {
-    return substitutions.join(" ");
-  }
-
-  if (substitutions != null) {
-    return `${substitutions}`;
-  }
-
-  return localeString;
+function localize(localeString) {
+  return chrome.i18n.getMessage(localeString);
 }
 
 function getBrowser() {

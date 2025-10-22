@@ -8,11 +8,11 @@
     </p>
     <v-btn class="mainAltButton mb-2" :href="patreonLink" target="_blank">
       <v-icon style="margin-right: 0.5em">mdi-patreon</v-icon>
-      {{ $vuetify.lang.t("$vuetify.donate.patreon") }}
+      Patreon
     </v-btn>
     <v-btn class="mainAltButton mb-2" :to="cryptoLink">
       <v-icon style="margin-right: 0.5em">mdi-bitcoin</v-icon>
-      {{ $vuetify.lang.t("$vuetify.donate.crypto") }}
+      Crypto
     </v-btn>
   </div>
 </template>
